@@ -1,0 +1,25 @@
+/* src/components/ui/Navbar.css */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 2rem;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 100;
+  }
+  
+  .nav-link {
+    margin-right: 1.5rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #8b5cf6; /* Couleur violette au survol */
+  }
+  
+  .text-purple-500 {
+    color: #8b5cf6; /* Couleur violette pour le lien actif */
+  }
